@@ -5,11 +5,19 @@ body{
 }
 
 #header{
-    position: fixed; <!-- Fixes the header to the top of the page //-->
-    top: 0 px;
-    left: 0 px;
+    position: fixed; /* Fixes the header to the top of the page */
+    top: 0px;
+    left: 0px;
     z-index: 500;
-    width: 100%; <-- Makes the header span the full width of the page //-->
-    height: 80px; <!-- Sets the height of the header //-->
-    background-image: url('images/'); <!-- Background image for the header //-->
+    width: 100%; /* Makes the header span the full width of the page */
+    height: 80px; /* Sets the height of the header */
+    background-image: url('images/wood-bg.png'); /* Background image for the header */
+    background-repeat: repeat-x; /* Repeats the background image horizontally */
+}
+
+#header img{
+    display: block; /* Ensures the image is treated as a block element */
+    margin: auto; /* Centers the image horizontally */
+    height: 70%; /* Sets the height of the image */
+    padding-top: 15px; /* Adds padding to the top of the image */
 }
