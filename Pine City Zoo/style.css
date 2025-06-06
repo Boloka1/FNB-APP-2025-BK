@@ -4,6 +4,7 @@ body{
     font-family: Helvetica;
 }
 
+/*========================= HEADER =========================*/
 #header{
     position: fixed; /* Fixes the header to the top of the page */
     top: 0px;
@@ -20,4 +21,27 @@ body{
     margin: auto; /* Centers the image horizontally */
     height: 70%; /* Sets the height of the image */
     padding-top: 15px; /* Adds padding to the top of the image */
+}
+
+/*========================= TOP-TABS =========================*/
+#tabs-top{
+    position: fixed; /* Fixes the tabs to the top of the page */
+    top: 80px; /* Positions the tabs below the header */
+    left: 0px;
+    z-index: 500;
+    width: 100%; /* Makes the tabs span the full width of the page */
+    height: 40px; /* Sets the height of the tabs */
+    background-color: darkgreen; /* Sets a light gray background color for the tabs */
+}
+
+#tabs-top a{
+    float: left; /* Floats the links to the left */
+    display: block; /* Makes the links block elements */
+    width:33%; /* Each link takes up one-third of the width */
+    height:35;
+    font-weight:700; /* Makes the font bold */
+    color: white; /* Sets the text color to white */
+    text-align: center; /* Centers the text within the links */
+    text-decoration: none; /* Removes the underline from the links */
+    padding-top: 12px;
 }
