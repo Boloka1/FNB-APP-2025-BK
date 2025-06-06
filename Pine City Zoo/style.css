@@ -1,0 +1,15 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+}
+
+#header{
+    position: fixed; <!-- Fixes the header to the top of the page //-->
+    top: 0 px;
+    left: 0 px;
+    z-index: 500;
+    width: 100%; <-- Makes the header span the full width of the page //-->
+    height: 80px; <!-- Sets the height of the header //-->
+    background-image: url('images/'); <!-- Background image for the header //-->
+}
